@@ -1,0 +1,19 @@
+inicio
+    real: m1, m2, m3, m4;
+    real: mF
+
+        leia ← m1, m2, m3, m4
+        mF ← (m1 + m2 + m3 + m4) / 4
+        escreva (mF)
+            se mF >= 7.0
+                entao
+                    inicio
+                        escreva "Aprovado, parabéns"
+                    fim
+                senao
+                    inicio
+                        escreva "reprovado, estuda mais arrombado"
+                    fim
+            fimse
+            
+fim
